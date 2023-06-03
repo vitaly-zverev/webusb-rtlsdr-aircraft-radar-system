@@ -1066,7 +1066,13 @@
       {
         vendorId: 0x0bda,
         productId: 0x2838
-      }
+      },
+      // HanfTek (Rebranded dongle. Strange, usually HanfTek's ID is 15f4:0133)
+      {
+        vendorId: 0x15f4,
+        productId: 0x0131
+      },
+      
     ];
 
     function RtlSdr(usbDevice) {
